@@ -1,0 +1,338 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: Verdana, Geneva, Tahoma;
+}
+*::selection{
+  color: black;
+  background-color: white;
+}
+
+.photo{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./dark\ space.jpg');
+  height: 100vh;
+  width: 100%;
+  /* animation: transitionIn .95s; */
+}
+
+.header{
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 20px;
+  padding:20px 10px;
+  position:fixed;
+  top:20px;
+  left:100px;
+  display:flex;
+  width:85%;
+  background-color:transparent;
+  backdrop-filter: blur(5px);
+  justify-content: space-between;
+  z-index:100;
+  align-items: center;
+  animation: transitionIn .95s;
+}
+
+
+
+.navbar{
+  padding-top: 0px;
+  animation: transitionIn .95s;
+
+}
+.defalt{
+  color: white;
+  font-family: 'Space mono',monospace;
+  padding-left: 80px;
+  padding-top: 0px;
+  
+  cursor: default;
+  animation: transitionIn .95s;
+}
+.defalt::selection{
+  color:#000000;
+  background-color: white;
+  
+}
+.h1{
+  margin:20px;
+  text-decoration: none;
+  color: white;
+  
+  font-family: 'Space mono',monospace;
+  transition: .3s;
+  animation: transitionIn .95s;
+}
+
+.h1:hover{
+  color:#6f42c1;
+}
+
+.h1::selection{
+  color:#000000;
+  background-color: white;
+}
+
+.content{
+  
+  padding: 15% 0% 20% 14%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  animation: transitionIn .95s;
+  
+}
+.intro{
+  max-width: 570px;
+  animation: transitionIn .95s;
+}
+
+.intro h1{
+  color: white;
+  font-size: 40px;
+ 
+}
+
+.intro h3{
+  font-family: 'Space mono',monospace;
+  color:#6f42c1 ;
+  font-size: 100%;
+   
+  margin-bottom: 2%;
+}
+
+.intro p{
+  font-family: 'Space mono',monospace;
+  color: white;
+  text-align: justify;
+  font-size: 80%;
+}
+
+.button1{
+  color:white;
+  font-weight: 500;
+  margin: 18px 0px 0px 0px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 4px;
+  height:36px;
+  width: 70px;
+  background-color: transparent;
+  cursor: pointer;
+  transition:1s;
+}
+
+.button2{
+  color:white;
+  font-weight: 500;
+  margin: 18px 0px 0px 18px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 4px;
+  height: 36px;
+  width: 90px;
+  background-color: transparent;
+  cursor: pointer;
+  transition:1s;
+}
+
+.button1:hover{
+  background-color: white;
+  color: black;
+  transform: rotate(360deg);
+}
+
+.button2:hover{
+  background-color: white;
+  color: black;
+  transform: rotate(360deg);  
+}
+.know_me{
+  background-color: #000000;  
+  
+}
+.know{
+  justify-content: center;
+  display: flex;
+  padding:2%;
+  
+}
+.ABOUT{
+  color: white;
+  font-family: vcr osd mono;
+}
+
+@keyframes transitionIn {
+  from{
+    opacity: 0%;
+    transform: rotateX(-10deg);
+  }
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+.art_container{
+  display: flex;
+}
+
+.about_img{
+  color:white;
+  font-family: 'Space mono',monospace;
+}
+.img1{
+  height: 500px;
+  width: 320px;
+  border-style: solid;
+  border-radius: 2%;
+  border-color: aliceblue;
+}
+.image1{
+  margin-left: 15%;
+  margin-top:5% ;  
+}
+
+.about_img1{
+  margin-left: 16%;
+  margin-right: 10%;
+  margin-top: 10%;
+  text-align: center;
+}
+.FUN{
+  font-family: 'Space mono',monospace;
+  line-height: 2;
+}
+
+.glance{
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  background-color: #000000;
+}
+
+.about_G{
+  color: white;
+  line-height: 5;
+}
+.about_Gl{
+  color: white;
+  text-align: center;
+}
+ .blanks{
+  background-color: #000000;
+  margin-top: 5%;
+ }
+
+ .contacts{
+  margin-top: 5%;
+  margin-right:20%;
+  margin-left: 35.5%;
+ }
+ .contact{
+  color: white;
+  font-family: 'Space mono',monospace;
+  line-height: 2;
+  padding-left: 17%;
+ }
+
+.button3{
+  text-decoration: none; 
+  color:white;
+  font-weight: 500;
+  margin-left:5%;
+  border-style: solid;
+  border-color: white;
+  border-radius: 4px;
+  height:36px;
+  width: 70px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 11%;
+  transition:1s;
+}
+
+.button4{
+  color:white;
+  font-weight: 500;
+  
+  border-style: solid;
+  border-color: white;
+  border-radius: 4px;
+  height:36px;
+  width: 70px;
+  background-color: transparent;
+  cursor: pointer;
+  transition:1s;
+  margin-left: 5%;
+}
+.button5{
+  color:white;
+  font-weight: 500;
+  border-style: solid;
+  border-color: white;
+  border-radius: 4px;
+  height:36px;
+  width: 70px;
+  background-color: transparent;
+  cursor: pointer;
+  transition:1s;
+  margin-left: 5%;
+}
+
+.button3:hover{
+  background-color: #6f42c1;
+  border-color: #6f42c1;  
+}
+
+.button4:hover{
+background-color:#f76305;
+border-color: #f76305;
+}
+.button5:hover{
+  background-color:rgb(46, 126, 200);
+  border-color: rgb(46, 126, 200);
+}
+.link1{
+  text-decoration: none;
+  color: white;
+}
+.link2{
+  text-decoration: none;
+  color: white;
+}
+
+
+.image{
+  height: 40vh;
+  width: 40vh;
+  margin:0% 10% 0% 15%;
+  border-style: solid;
+  border-color: white;
+  transition: all 1s ease-in-out;
+  animation: animate 20s ease-in-out infinite;
+}
+
+@keyframes animate { 
+  0%{
+      border-radius:60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  20%{
+      border-radius:30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  40%{
+      border-radius: 68% 32% 51% 49% / 63% 34% 66% 37% ;
+  }
+  60%{
+      border-radius: 37% 63% 28% 72% / 75% 68% 32% 25%;
+  }
+  80%{
+      border-radius: 68% 32% 64% 36% / 28% 82% 18% 72%;
+  }
+  100%{
+      border-radius:60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+footer{
+padding-bottom: 20%;
+}
